@@ -1,7 +1,7 @@
 <template>
     <div class="container" id="login_bg">
                 <div class="row">
-                    <div class="col-12"></div>
+                    <div class="col-12">{{this.$store.state.login}}</div>
                     <div class="col-12" >
                         <h1>Sign In</h1>
                     </div>

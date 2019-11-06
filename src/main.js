@@ -7,7 +7,6 @@ import 'bootstrap/dist/css/bootstrap.min.css'  // 修改
 import 'bootstrap/dist/js/bootstrap.min'   // 修改
 
 
-
 Vue.config.productionTip = false
 
 new Vue({
