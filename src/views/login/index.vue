@@ -41,13 +41,12 @@
 
 <script>
     export default {
-        name: "index",
+        name: "login",
         methods: {
             login(obj) {
                 // alert(document.getElementById(obj).innerHTML.valueOf());
                 // document.getElementById(obj).innerHTML = "tset";
-                this.$router.push({ path:'/index'})
-
+                this.$router.push({ path:'/home'})
             },
             register(obj){
                 alert(document.getElementById(obj).innerHTML.valueOf())
